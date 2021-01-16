@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+*{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+.celaner {
+	clear:both;
+}
+body{
+    font-family: 'Anton', sans-serif;
+}
+a {
+    text-decoration: none;
+	color:#fff;
+}
+ul {
+    list-style-type: none;
+}/* ---------- POCETNA ----------*/
+#malimeni {
+	width:100%;
+	height:60px;
+	background-color:#1c313a;
+	position:fixed;
+}
+.centar {
+	width:80%;
+	margin:0px auto;
+	position:relative;
+}
+#pretraga form {
+	float:left;
+	padding-left:70px;
+	padding-top:15px;
+}
+#pretraga input {
+	height:20px;
+	border-radius:5px;
+}
+#mreze {
+	position:absolute;
+	left:380px;
+}
+label {
+	display:inline-block;
+	margin-right:30px;
+	margin-top:5px;
+}
+label h1 {
+	font-size:25px;
+}
+label h1:hover {
+	color:#7f0000;
+}
+#mreze ul li {
+	display:inline-block;
+	margin-top:5px;
+	margin-right:30px;
+}
+#prijava {
+	position:absolute;
+	left:950px;
+	margin-top:15px;
+}
+#prijava a:hover {
+	color:#7f0000;
+}
+#mreze ul li a:hover {
+	color:#7f0000;
+}
+#logo-meni {
+	width:100%;
+	height:400px;
+	padding-top:50px;
+}
+#logo {
+	width:200px;
+	margin-top: 50px;
+}
+#meni {
+	width:100%;
+	height:60px;
+	background-color:#f0f0f0;
+	margin-top:50px;
+}
+#meni ul li {
+	display:inline-block;
+	margin-left:220px;
+	padding-top:15px;
+}
+#meni ul li a {
+	color:#000;
+}
+#meni ul li a:hover {
+	color:#7f0000;
+}
+.aktivan-link {
+	color:#7f0000;
+	border-bottom-color:#7f0000;
+}
+.pozadinaImg {
+	width:100%;
+	height:400px;
+	background-image: url(../img/karate.jpg);
+	background-attachment:fixed;
+	background-size: cover;
+}
+.pozadinaImg h1 {
+	font-size:70px;
+	text-align:center;
+	padding-top:100px;
+	color:#607d8b;
+}
+.pozadinaImg .button {
+	width:120px;
+	height:30px;
+	background-color:#bdbdbd;
+	margin-top:100px;
+	border-radius:5px;
+	box-shadow:5px 5px 2.5px #000;
+	text-align:center;
+}
+.pozadinaImg .button a {
+	color:#000;
+}
+.treneri {
+	width:100%;
+	height:600px;
+	background-color:#f0f0f0;
+}
+.treneri section {
+	display:flex;
+}
+ .treneri section:last-child {
+    margin-right: 0px;
+ }
+.treneri h2 {
+	text-align:center;
+	padding-top:50px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.treneri article {
+	width:250px;
+	height:400px;
+	background-color:#f0f0f0;
+	margin:50px;
+	border: 3px solid #fff;
+}
+.trener img {
+	width:220px;
+	height:350px;
+	padding-left:5px;
+	padding-top:5px;
+}
+.bio {
+	height:30px;
+	background-color:#fff;
+	text-align:center;
+	padding-top:10px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#onama {
+	width:100%;
+	height:300px;
+}
+#onama article {
+	width:33%;
+	height:200px;
+	text-align:center;
+	left:300px;
+	background-color:#fff;
+	display:inline-block;
+	padding-top:50px;
+}
+.onamaImg img {
+	width:100px;
+	height:100px;
+}
+#onama article h3 {
+	font-size:25px;
+	padding-top:10px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#onama article p {
+	padding-top:10px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+footer {
+	width:100%;
+	height:50px;
+	background-color:#1c313a;
+	margin-top:40px;
+}
+#prava {
+	text-align:center;
+	color:#fff;
+	padding-top:15px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#prava a:hover {
+	color:#7f0000;
+}
+
+/* ---------- SHOP ---------- */
+
+.shopGlavni {
+	width:100%;
+	height:1200px;
+	background-color:#303841;
+}
+.shopGlavni h2 {
+	text-align:center;
+	padding-top:50px;
+	font-family: 'Nanum Gothic', sans-serif;
+	color:#fff;
+}
+.shopGlavni section {
+	display:flex;
+}
+.shopGlavni article {
+	width:300px;
+	height:300px;
+	background-color:#303841;
+	margin-top:50px;
+	border: 3px solid #fff;
+}
+.oprema img {
+	width:200px;
+	height:200px;
+	padding-left:50px;
+	padding-top:20px;
+}
+.opisOprema {
+	text-align:center;
+	background-color:#fff;
+	margin-top:23px;
+	border: 3px solid #fff;
+}
+
+
+/* ---------- AUTOR ---------- */
+
+#autor {
+	width:100%;
+	height:500px;
+	background-color:#303841;
+	display:flex;
+}
+#autor h2 {
+	text-align:center;
+}
+.foto {
+	width:50%;
+	height:400px;
+	margin-top:50px;
+	border-right:3px solid #fff;
+}
+.foto img {
+	width:300px;
+	height:250px;
+	padding-top:55px;
+	padding-left:180px;
+}
+.foto h3 {
+	text-align:center;
+	font-size:30px;
+	color:#fff;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.moj-opis {
+	width:50%;
+	height:400px;
+	margin-top:50px;
+}
+.moj-opis p {
+	text-align:center;
+	color:#fff;
+	font-family: 'Nanum Gothic', sans-serif;
+	padding-top:70px;
+}
+.moj-opis h3 {
+	text-align:center;
+	font-size:30px;
+	color:#fff;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+/* ---------- KONTAKT ---------- */
+
+#informacije {
+	width:100%;
+	height:600px;
+	background-color:#303841;
+}
+#informacije h2 {
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+	padding-top:50px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#upitnik {
+	width:100%;
+	height:400px;
+	margin-top:50px;
+}
+#mejlovi {
+	width:25%;
+	height:300px;
+	float:left;
+	margin-top:50px;
+	border-radius:0px 20px 20px 0px;
+	border:3px solid #fff;
+	box-shadow:5px 5px 2.5px #000;
+}
+#mejlovi p {
+	text-align:center;
+	padding-top:30px;
+	color:#fff; 
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#forma {
+	width:40%;
+	height:400px;
+	border:3px solid #fff;
+	box-shadow:5px 5px 2.5px #000;
+}
+.box {
+	margin-top:50px;
+	float:right;
+	width:100px;
+}
+.naziv {
+	margin-top:50px;
+	float:left;
+	color:#fff;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#box2 {
+	margin-top:20px;
+	color:#fff;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.dugme {
+	width:60px;
+	height:30px;
+	margin-top:30px;
+	background-color:#bdbdbd;
+	border-radius:5px;
+	box-shadow:5px 5px 2.5px #000;
+}
+#galerija {
+	width:100%;
+	height:700px;
+	background-color:#303841;
+	margin-top:50px;
+	display:flex;
+}
+.plakati {
+	width:28%;
+	height:500px;
+	padding-top:100px;
+	padding-left:30px;
+}
+.plakati img {
+	width:100%;
+	height:500px;
+	box-shadow:10px 10px 5px #000;
+}
+
